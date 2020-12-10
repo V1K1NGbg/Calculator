@@ -1,24 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 </head>
+
 <body>
-    <input type="number" id="number">
-    <button onclick="equal();">Equal</button>
-    <button onclick="equal();">Equal</button>
-    <button onclick="equal();">Equal</button>
-    <button onclick="equal();">Equal</button>
-    <button onclick="equal();">Equal</button>
-    <button onclick="equal();">Equal</button>
-    <button onclick="equal();">Equal</button>
-    <button onclick="equal();">Equal</button>
-    <button onclick="equal();">Equal</button>
-    <button onclick="equal();">Equal</button>
-    <button onclick="equal();">Equal</button>
+    <input type="number" id="number" class="">
+    <div class="button_holder">
+        <button onclick="sin();" class="button1 button">Sin</button>
+        <button onclick="cos();" class="button2 button">Cos</button>
+        <button onclick="tan();" class="button3 button">Tan</button>
+        <button onclick="devide();" class="button4 button">/</button>
+        <button onclick="sinneg();" class="button5 button">Sin-1</button>
+        <button onclick="cosneg();" class="button6 button">Cos-1</button>
+        <button onclick="tanneg();" class="button7 button">Tan-1</button>
+        <button onclick="multiply();" class="button8 button">X</button>
+        <button onclick="seven();" class="button9 button">7</button>
+        <button onclick="eight();" class="button10 button">8</button>
+        <button onclick="nine();" class="button11 button">9</button>
+        <button onclick="minus();" class="button12 button">-</button>
+        <button onclick="four();" class="button13 button">4</button>
+        <button onclick="five();" class="button14 button">5</button>
+        <button onclick="six();" class="button15 button">6</button>
+        <button onclick="plus();" class="button16 button">+</button>
+        <button onclick="one();" class="button17 button">1</button>
+        <button onclick="two();" class="button18 button">2</button>
+        <button onclick="three();" class="button19 button">3</button>
+        <button onclick="equal();" class="button20 button">=</button>
+        <button onclick="zero();" class="button21 button">0</button>
+        <button onclick="dot();" class="button22 button">.</button>
+        <button onclick="reverse_sign();" class="button23 button">+/-</button>
+        <button onclick="percent();" class="button24 button">%</button>
+    </div>
     <p id="test"></p>
 </body>
+
 </html>
